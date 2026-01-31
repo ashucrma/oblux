@@ -1,4 +1,5 @@
 //! Unsigned integer types with guaranteed signed integer compatibility.
+#![no_std]
 
 #[rustfmt::skip]
 macro_rules! define_ux {
