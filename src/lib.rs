@@ -83,7 +83,7 @@ macro_rules! define_ux {
 				if x < 0 {
 					None
 				} else {
-					Self::new(x as $unsigned)
+					Some(Self(x as $unsigned))
 				}
 			}
 
